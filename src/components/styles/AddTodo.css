@@ -1,0 +1,27 @@
+.add-todo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background: #61dafb;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+button:hover {
+  background: #21a1f1;
+}
